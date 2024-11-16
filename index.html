@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="login">
+        <form action="#" class="sign-in">
+          <h2 class="title">Sign In</h2>
+
+          <div class="input" id="input-email2">
+            <i class="fas fa-envelope"></i>
+            <input type="text" placeholder="Email" />
+          </div>
+
+          <div class="input" id="input-password2">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Password" />
+          </div>
+
+          <input type="submit" value="login" class="btn" id="login-button" />
+
+          <p class="social-text">or sign in with</p>
+          <div class="social-media">
+            <a href="#" class="social-icon">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+          <p class="account-text">
+            Dont't have an account? <a href="#" id="sign-up-btn2">Sign Up</a>
+          </p>
+        </form>
+
+        <form action="#" class="sign-up">
+          <h2 class="title">Sign Up</h2>
+
+          <div class="input" id="input-email">
+            <i class="fas fa-envelope"></i>
+            <input type="text" placeholder="Email" />
+          </div>
+
+          <div class="input" id="input-password">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Create a Password" />
+          </div>
+
+          <div class="input" id="input-confirm-password">
+            <i class="fas fa-unlock"></i>
+            <input type="password" placeholder="Confirm Password" />
+          </div>
+
+          <input
+            type="submit"
+            value="Sign Up"
+            class="btn"
+            id="sign-up-button"
+          />
+
+          <p class="social-text">or sign up with</p>
+          <div class="social-media">
+            <a href="#" class="social-icon">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+          <p class="account-text">
+            Already have an account? <a href="#" id="sign-in-btn2">Sign In</a>
+          </p>
+        </form>
+      </div>
+
+      <div class="panel-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>Already have an account?</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis
+              sequi quae natus quos.
+            </p>
+            <button class="btn" id="sign-in-btn">Sign In</button>
+          </div>
+          <img src="Assets/adventure.svg" alt="" class="image" />
+        </div>
+
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>Don't have an account?</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis
+              sequi quae natus quos.
+            </p>
+            <button class="btn" id="sign-up-btn">Sign Up</button>
+          </div>
+          <img src="Assets/world.svg" alt="" class="image" />
+        </div>
+      </div>
+    </div>
+
+    <script src="login.js"></script>
+  </body>
+</html>
